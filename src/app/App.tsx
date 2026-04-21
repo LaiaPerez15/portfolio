@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { Mail, Phone, MapPin, Linkedin, Github, ExternalLink, Download, Menu, X, ChevronDown } from "lucide-react";
 import { useState } from "react";
-import { ImageWithFallback } from "./components/figma/ImageWithFallback";
+import { ImageWithFallback } from "./components/ui/ImageWithFallback";
 import photoImg from "../imports/image.png";
 import cvPdf from "../imports/Laia_Perez_Prados_CV.pdf";
 import certActiveDirectory from "../imports/Administración de Directorio Activo en Windows Server.png";
@@ -194,7 +194,6 @@ export default function App() {
       { name: 'Jira', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg' },
       { name: 'WordPress', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg' },
       { name: 'Elementor', logo: 'https://cdn.wpml.org/wp-content/uploads/2017/09/Elementor-Logo-Symbol-Red.png' },
-      { name: 'Figma', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg' },
       { name: 'Canva', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg' },
       { name: 'UI/UX', logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968705.png' }
     ]
